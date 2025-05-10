@@ -9,10 +9,21 @@
     color: white;
     background-color: rgba(31, 130, 200, 0.862);
     border: 1px solid black;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .sidebar ul {
     list-style-type: none;
+    padding-left: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+.sidebar ul li {
+    font-weight: 600;
 }
 
 .header {
