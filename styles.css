@@ -4,6 +4,12 @@
     grid-template-columns: 1fr 4fr;
 }
 
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 .sidebar {
     grid-row: 1/3;
     color: white;
@@ -26,11 +32,94 @@
     font-weight: 600;
 }
 
-.header {
+/*........Header........*/
 
+.header {
     border: 1px solid black;
+    display: grid;
 }
 
+.header-top {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top>.profile {
+    display: flex;
+    gap: 10px;
+}
+
+.search-img {
+    position: relative;
+    top: 10px;
+}
+
+.header-top input {
+    width: 40em;
+    padding: 5px;
+    border-radius: 13px;
+    background-color: rgba(192, 198, 197, 0.315);
+    border: solid 1px rgba(191, 197, 196, 0.350);
+}
+
+/*....................................*/
+
+.header-bottom {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom .avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.greeting {
+    padding-left: 10px;
+    display: flex;
+}
+
+.greeting div {
+    padding-left: 10px;
+}
+
+.greeting>div>:first-child {
+    margin: 0;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.greeting>div>:last-child {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons * {
+    background-color: rgba(31, 130, 200, 0.862);
+    color: white;
+    border: rgba(31, 130, 200, 0.862);
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+/*....main-content.......*/
+
 .main-content {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
     border: 1px solid black;
 }
