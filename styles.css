@@ -169,7 +169,6 @@
     display: grid;
     padding: 10px 20px;
     border-radius: 5px;
-    letter-spacing: 0px;
 }
 
 .announce-info h5 {
@@ -181,5 +180,40 @@
 .announce-info p {
     color: gray;
     font-size: 13px;
+    margin-top: 0;
+}
+
+/**.....Trending.......*/
+
+.trending {
+    padding-left: 15px;
+}
+
+.trending-users {
+    background-color: white;
+    display: grid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.item {
+    display: flex;
+}
+
+.item img {
+    position: relative;
+    top: 20px;
+}
+
+.project-name {
+    margin-left: 15px;
+}
+
+.project-name p:first-child {
+    margin-bottom: 5px;
+}
+
+.project-name p:last-child {
+    color: grey;
     margin-top: 0;
 }
