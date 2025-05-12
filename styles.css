@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    font-family: Roboto;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
